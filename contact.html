@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <meta charset="UT-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+<aside>
+        <h1><strong>Contact Us</strong></h1>
+</aside>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+            </ul>
+<section>
+            <address>
+            777 Bakers Avenue<br>
+            Charlotte, NC USA 12345<br>
+            Phone: (555) 777-1177<br>
+</section>           
+        </nav>
+        </strong></h1>
+        <p></p>
+    </header>
+    <main>
+        </main>
+<form action="/contact" method="post">
+    <fieldset>
+    <legend>Contact Information</legend>
+    <label for="fullName">Full Name:</label>
+    <input type=""text" id="fullName" name="full_name" minlength="2" maxlength="50">
+    <br>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="phoneNum">Phone</label>
+    <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="phoneNum" name="phoneNum" title="Enter phone number as 123-456-7890">
+    <br>
+    <label for="pickup date">Pickup Date:</label>
+    <input type="date" id="date" name="date" required>
+    <br>
+    <label for="request">Pre-Order and General Questions:</label>
+    <input type="text" id="Pre-Order" name="Pre-Order" required>
+    <br>
+    <label for="message">Item Details:</label>
+    <textarea id="message" name="message" minlength="20" maxlength="1000"></textarea>
+    <br>
+    <label for="allergies">Allergies:</label>
+    <input type="text" id="allergies" name="allergies">
+    <br>
+    <button type="submit">Submit</button>
+</fieldset>
+</form>
+<a href="about.html">Visit our About page</a>
+<footer>
+    <p>&copy; 2023 Baked Goods. All rights reserved.</p>
+</footer>
+</body>
+</html>

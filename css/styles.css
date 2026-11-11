@@ -1,0 +1,67 @@
+h1 {
+  color: rgb(250, 245, 245);
+}
+
+body {
+  font-family: 'Chamberi Display', Times, serif, sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 36px;
+  color: rgb(22, 20, 20);
+}
+
+h3 {
+  font-size: 21px;
+  color: rgba(12, 12, 12, 0.055);
+}
+
+.nav-link {
+display: inline-block;
+padding: 10px 20px;
+text-decoration: none;
+color: black;
+transition: background-color 0.2s, color 0.2s;
+}
+
+.nav-link:hover {
+background-color: #945418;
+color: white;
+}
+
+.nav-link:focus {
+outline: 2px solid #0066cc;
+outline-offset: 2px;
+}
+
+.nav-link:active {
+background-color: #945418;
+color: white;
+}
+
+aside {
+  background-color: #945418;
+  color: #ecf0f1;
+  padding: 1rem;
+}
+
+.practice-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media(min-width: 768px) {
+  .practice-nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1024px) {
+.practice-nav {
+gap: 32px;
+}
+}
+
